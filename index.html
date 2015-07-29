@@ -1,0 +1,333 @@
+<!DOCTYPE html>
+<html class="no-js" lang="">
+
+   <head>
+    <meta http-equiv="Content-Type" content="text/html; charset=utf-8" />
+    <!-- <meta http-equiv="X-UA-Compatible" content="IE=edge,chrome=1"> -->
+    <meta name="viewport" content="width=device-width, initial-scale=1, minimum-scale=1, maximum-scale=1">
+
+      <title>Custom Slider</title>
+      <link rel="stylesheet" type="text/css" href="assets/slider.css">
+      <link href="assets/venobox.css" rel="stylesheet" />
+      <script type="text/javascript" src="assets/jquery-1.9.1.min.js"></script>
+      <script src="assets/venobox.min.js"></script>
+      <script type="text/javascript" src="assets/slider.js"></script>
+      <script type="text/javascript">
+         $(window).load(function(){
+         	$(".cust_slider").loadCustomSlider(
+         		{
+         			
+         			autoslide:false
+         		});
+         	$(".cust_slider2").loadCustomSlider(
+         		{
+         			speed:3000,
+         			autoslide:true
+         		});
+         	$(".cust_slider3").loadCustomSlider(
+         		{
+         			speed:5000,
+         			autoslide:true
+         		});
+         	 $('.venobox').venobox(); 
+         });
+        
+      </script>
+   </head>
+   <body>
+      <div class="maincontainer">
+      <div class="container">
+         <h1>Without Auto Slide</h1>
+         <pre>
+			$(".cust_slider").loadCustomSlider(
+					{
+						autoslide:false
+					});
+		</pre>
+         <div class="cust_slider">
+            <div class="hr_slider_wrap">
+               <div class="hr_slider">
+                  <ul class="cust_slides">
+                     <li>
+                        <div class="slider_contents">
+                            <a class="venobox" href="assets/images/dummy-960x450-Orchid.jpg"><img src="assets/images/dummy-960x450-Orchid.jpg" alt="img1" /></a>
+                        </div>
+                     </li>
+                     <li>
+                        <div class="slider_contents">
+                           <a class="venobox" href="assets/images/dummy-960x450-Raindrops.jpg"><img src="assets/images/dummy-960x450-Raindrops.jpg" alt="img2" /></a>
+                        </div>
+                     </li>
+                     <li>
+                        <div class="slider_contents">
+                           <img src="assets/images/dummy-960x450-SeedGreen.jpg" alt="img3" />
+                        </div>
+                     </li>
+                     <li>
+                        <div class="slider_contents">
+                           <img src="assets/images/dummy-960x450-Waterfalls.jpg" alt="img4" />
+                        </div>
+                     </li>
+                     <li>
+                        <div class="slider_contents">
+                           <img src="assets/images/dummy-960x450-MonasteryGarden.jpg" alt="img4" />
+                        </div>
+                     </li>
+                     <li>
+                        <div class="slider_contents">
+                           <img src="assets/images/dummy-960x450-Ocean.jpg" alt="img4" />
+                        </div>
+                     </li>
+                     <li>
+                        <div class="slider_contents">
+                           <img src="assets/images/dummy-960x450-WaterDrops.jpg" alt="img4" />
+                        </div>
+                     </li>
+                  </ul>
+               </div>
+            </div>
+            <div class="vr_slider_wrap">
+               <div class="vr_slider">
+                  <ul class="cust_slides">
+                     <li>
+                        <div class="slider_contents">
+                           <img src="assets/images/dummy-960x450-Orchid.jpg" alt="img1" />
+                        </div>
+                     </li>
+                     <li>
+                        <div class="slider_contents">
+                           <img src="assets/images/dummy-960x450-Raindrops.jpg" alt="img2" />
+                        </div>
+                     </li>
+                     <li>
+                        <div class="slider_contents">
+                           <img src="assets/images/dummy-960x450-SeedGreen.jpg" alt="img3" />
+                        </div>
+                     </li>
+                     <li>
+                        <div class="slider_contents">
+                           <img src="assets/images/dummy-960x450-Waterfalls.jpg" alt="img4" />
+                        </div>
+                     </li>
+                     <li>
+                        <div class="slider_contents">
+                           <img src="assets/images/dummy-960x450-MonasteryGarden.jpg" alt="img4" />
+                        </div>
+                     </li>
+                     <li>
+                        <div class="slider_contents">
+                           <img src="assets/images/dummy-960x450-Ocean.jpg" alt="img4" />
+                        </div>
+                     </li>
+                     <li>
+                        <div class="slider_contents">
+                           <img src="assets/images/dummy-960x450-WaterDrops.jpg" alt="img4" />
+                        </div>
+                     </li>
+                  </ul>
+               </div>
+            </div>
+            <div class="nav_slider">
+               <a href="#" class="cust_prev"></a>
+               <a href="#" class="cust_next"></a>
+            </div>
+         </div>
+         <br/>
+         <h1>With Auto Slide</h1>
+         <pre>
+		$(".cust_slider2").loadCustomSlider(
+				{
+					speed:3000,
+					autoslide:true
+				});
+		</pre>
+         <div class="cust_slider2">
+            <div class="hr_slider_wrap">
+               <div class="hr_slider">
+                  <ul class="cust_slides">
+                     <li>
+                        <div class="slider_contents">
+                            <a class="venobox" href="assets/images/dummy-960x450-Orchid.jpg"><img src="assets/images/dummy-960x450-Orchid.jpg" alt="img1" /></a>
+                        </div>
+                     </li>
+                     <li>
+                        <div class="slider_contents">
+                           <a class="venobox" href="assets/images/dummy-960x450-Raindrops.jpg"><img src="assets/images/dummy-960x450-Raindrops.jpg" alt="img2" /></a>
+                        </div>
+                     </li>
+                     <li>
+                        <div class="slider_contents">
+                           <img src="assets/images/dummy-960x450-SeedGreen.jpg" alt="img3" />
+                        </div>
+                     </li>
+                     <li>
+                        <div class="slider_contents">
+                           <img src="assets/images/dummy-960x450-Waterfalls.jpg" alt="img4" />
+                        </div>
+                     </li>
+                     <li>
+                        <div class="slider_contents">
+                           <img src="assets/images/dummy-960x450-MonasteryGarden.jpg" alt="img4" />
+                        </div>
+                     </li>
+                     <li>
+                        <div class="slider_contents">
+                           <img src="assets/images/dummy-960x450-Ocean.jpg" alt="img4" />
+                        </div>
+                     </li>
+                     <li>
+                        <div class="slider_contents">
+                           <img src="assets/images/dummy-960x450-WaterDrops.jpg" alt="img4" />
+                        </div>
+                     </li>
+                  </ul>
+               </div>
+            </div>
+            <div class="vr_slider_wrap">
+               <div class="vr_slider">
+                  <ul class="cust_slides">
+                     <li>
+                        <div class="slider_contents">
+                           <img src="assets/images/dummy-960x450-Orchid.jpg" alt="img1" />
+                        </div>
+                     </li>
+                     <li>
+                        <div class="slider_contents">
+                           <img src="assets/images/dummy-960x450-Raindrops.jpg" alt="img2" />
+                        </div>
+                     </li>
+                     <li>
+                        <div class="slider_contents">
+                           <img src="assets/images/dummy-960x450-SeedGreen.jpg" alt="img3" />
+                        </div>
+                     </li>
+                     <li>
+                        <div class="slider_contents">
+                           <img src="assets/images/dummy-960x450-Waterfalls.jpg" alt="img4" />
+                        </div>
+                     </li>
+                     <li>
+                        <div class="slider_contents">
+                           <img src="assets/images/dummy-960x450-MonasteryGarden.jpg" alt="img4" />
+                        </div>
+                     </li>
+                     <li>
+                        <div class="slider_contents">
+                           <img src="assets/images/dummy-960x450-Ocean.jpg" alt="img4" />
+                        </div>
+                     </li>
+                     <li>
+                        <div class="slider_contents">
+                           <img src="assets/images/dummy-960x450-WaterDrops.jpg" alt="img4" />
+                        </div>
+                     </li>
+                  </ul>
+               </div>
+            </div>
+            <div class="nav_slider">
+               <a href="#" class="cust_prev"></a>
+               <a href="#" class="cust_next"></a>
+            </div>
+         </div>
+      </div>
+      <div class="fullwidth">
+         <br/>
+         <h1>Full Width</h1>
+         <pre>
+		$(".cust_slider3").loadCustomSlider(
+				{
+					speed:5000,
+					autoslide:true
+				});
+	</pre>
+         <div class="cust_slider3">
+            <div class="hr_slider_wrap">
+               <div class="hr_slider">
+                  <ul class="cust_slides">
+                     <li>
+                        <div class="slider_contents">
+                            <a class="venobox" href="assets/images/dummy-960x450-Orchid.jpg"><img src="assets/images/dummy-960x450-Orchid.jpg" alt="img1" /></a>
+                        </div>
+                     </li>
+                     <li>
+                        <div class="slider_contents">
+                           <a class="venobox" href="assets/images/dummy-960x450-Raindrops.jpg"><img src="assets/images/dummy-960x450-Raindrops.jpg" alt="img2" /></a>
+                        </div>
+                     </li>
+                     <li>
+                        <div class="slider_contents">
+                           <img src="assets/images/dummy-960x450-SeedGreen.jpg" alt="img3" />
+                        </div>
+                     </li>
+                     <li>
+                        <div class="slider_contents">
+                           <img src="assets/images/dummy-960x450-Waterfalls.jpg" alt="img4" />
+                        </div>
+                     </li>
+                     <li>
+                        <div class="slider_contents">
+                           <img src="assets/images/dummy-960x450-MonasteryGarden.jpg" alt="img4" />
+                        </div>
+                     </li>
+                     <li>
+                        <div class="slider_contents">
+                           <img src="assets/images/dummy-960x450-Ocean.jpg" alt="img4" />
+                        </div>
+                     </li>
+                     <li>
+                        <div class="slider_contents">
+                           <img src="assets/images/dummy-960x450-WaterDrops.jpg" alt="img4" />
+                        </div>
+                     </li>
+                  </ul>
+               </div>
+            </div>
+            <div class="vr_slider_wrap">
+               <div class="vr_slider">
+                 <ul class="cust_slides">
+                     <li>
+                        <div class="slider_contents">
+                           <img src="assets/images/dummy-960x450-Orchid.jpg" alt="img1" />
+                        </div>
+                     </li>
+                     <li>
+                        <div class="slider_contents">
+                           <img src="assets/images/dummy-960x450-Raindrops.jpg" alt="img2" />
+                        </div>
+                     </li>
+                     <li>
+                        <div class="slider_contents">
+                           <img src="assets/images/dummy-960x450-SeedGreen.jpg" alt="img3" />
+                        </div>
+                     </li>
+                     <li>
+                        <div class="slider_contents">
+                           <img src="assets/images/dummy-960x450-Waterfalls.jpg" alt="img4" />
+                        </div>
+                     </li>
+                     <li>
+                        <div class="slider_contents">
+                           <img src="assets/images/dummy-960x450-MonasteryGarden.jpg" alt="img4" />
+                        </div>
+                     </li>
+                     <li>
+                        <div class="slider_contents">
+                           <img src="assets/images/dummy-960x450-Ocean.jpg" alt="img4" />
+                        </div>
+                     </li>
+                     <li>
+                        <div class="slider_contents">
+                           <img src="assets/images/dummy-960x450-WaterDrops.jpg" alt="img4" />
+                        </div>
+                     </li>
+                  </ul>
+               </div>
+            </div>
+            <div class="nav_slider">
+               <a href="#" class="cust_prev"></a>
+               <a href="#" class="cust_next"></a>
+            </div>
+         </div>
+      </div>
+   </body>
+</html>
